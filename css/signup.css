@@ -1,0 +1,92 @@
+body {
+  font-family: "Bitter", serif;
+  background-color: indigo;
+}
+
+body .topbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(yellow), color-stop(orange), to(red));
+  background-image: linear-gradient(to right, white, yellow, orange, red);
+  padding-bottom: 0px;
+  z-index: 999;
+}
+
+body .topbox img {
+  position: relative;
+  left: 1.5%;
+}
+
+body .topbox nav {
+  position: relative;
+  left: 50%;
+  padding-top: 13px;
+}
+
+body .topbox nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+body .topbox nav ul li {
+  padding-right: 20px;
+}
+
+body .topbox nav ul li a {
+  font-weight: bolder;
+  text-decoration: none;
+  color: darkblue;
+  font-size: 30px;
+}
+
+body .filler {
+  padding-top: 10%;
+}
+
+body .container-signup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0% 39%;
+}
+
+body .container-signup .query-form1 {
+  color: darkorange;
+  font-size: 25px;
+  text-align: center;
+}
+
+body .container-signup .query-form1 .query-input1 {
+  font-size: 20px;
+  border: 0.5px solid orange;
+  border-radius: 7px;
+}
+
+body .container-signup .query-form1 .login {
+  padding: 10px 25px;
+  border: 0;
+  border-radius: 50px;
+  font-size: 25px;
+  background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(yellow), color-stop(orange), to(red));
+  background-image: linear-gradient(to right, white, yellow, orange, red);
+}
+
+body .basement {
+  text-align: center;
+  color: gold;
+  background-color: darkslateblue;
+  padding-bottom: .1%;
+}
+
+body .basement h3 {
+  padding-top: 1%;
+  font-weight: lighter;
+}
+/*# sourceMappingURL=signup.css.map */

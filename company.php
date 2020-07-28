@@ -1,0 +1,3 @@
+<?php
+if(sizeof($_GET) == 0):
+    echo "THE HOST IS BULIDING THIS PART SO KINGLY WAIT FOR SOMETIME"

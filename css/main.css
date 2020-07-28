@@ -1,0 +1,162 @@
+body {
+  font-family: "Bitter", serif;
+  background-color: indigo;
+}
+
+.topbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(yellow), color-stop(orange), to(red));
+  background-image: linear-gradient(to right, white, yellow, orange, red);
+  padding-bottom: 0px;
+  z-index: 999;
+}
+
+.topbox img {
+  position: relative;
+  left: 1.5%;
+}
+
+.topbox nav {
+  position: relative;
+  left: 50%;
+  padding-top: 13px;
+}
+
+.topbox nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.topbox nav ul li {
+  padding-right: 20px;
+}
+
+.topbox nav ul li a {
+  font-weight: bolder;
+  text-decoration: none;
+  color: darkblue;
+  font-size: 30px;
+}
+
+.filler {
+  padding-top: 10%;
+}
+
+.container-home {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container-home div {
+  margin: 0% 5%;
+  text-align: center;
+  font-size: xx-large;
+  color: darkorange;
+}
+
+.container-home div .image {
+  border: 0;
+  width: 350px;
+  border-radius: 20px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.container-home div .image:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-box-shadow: 0px 0px 39px 5px #f6fa00;
+  box-shadow: 0px 0px 39px 5px #f6fa00;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.size-control {
+  text-align: center;
+  font-size: 80px;
+  font-weight: bolder;
+  color: lightsalmon;
+}
+
+.container-about {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.container-about .paragraph1 {
+  text-align: center;
+  font-size: 34px;
+  font-weight: bolder;
+  color: white;
+}
+
+.container-query {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0% 39%;
+}
+
+.container-query .query-form1 {
+  color: darkorange;
+  font-size: 25px;
+  text-align: center;
+}
+
+.container-query .query-form1 .query-input1 {
+  font-size: 20px;
+  border: 0.5px solid orange;
+  border-radius: 8px;
+}
+
+.container-query .query-form1 .btn1 {
+  padding: 10px 25px;
+  border: 0;
+  border-radius: 50px;
+  font-size: 25px;
+  background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(yellow), color-stop(orange), to(red));
+  background-image: linear-gradient(to right, white, yellow, orange, red);
+}
+
+.container-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 3%;
+}
+
+.container-contact form {
+  color: orange;
+  font-size: 38px;
+}
+
+.container-contact .maps2 {
+  margin: 0% 5%;
+  padding-right: 2px;
+  border-radius: 25px;
+}
+
+.base {
+  text-align: center;
+  color: gold;
+  background-color: darkslateblue;
+  padding-bottom: .1%;
+}
+
+.base h3 {
+  padding-top: 1%;
+  font-weight: lighter;
+}
+/*# sourceMappingURL=main.css.map */
